@@ -31,3 +31,8 @@ h1{
 .icon{
 font-size: 20px;
 }
+.linkcolor{
+   color: white;
+   border: 2px solid red;
+   text-decoration: none;
+}

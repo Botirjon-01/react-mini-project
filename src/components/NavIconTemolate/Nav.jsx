@@ -1,15 +1,16 @@
 import "./Nav.css"
-
-const Nav = ({Icon, title,onClick}) => {
+import { Link } from "react-router-dom"
+const Nav = ({Icon,ink, title,onClick}) => {
   return (
-    <div className="Nav" onClick={onClick} >
+    <div className="Nav" onClick={onClick}>
+      {Icon && <Icon className="icon"></Icon>}
 
-        {Icon && <Icon className="icon" ></Icon>}
-        
-        <h1>{title ? title:null}</h1>
-        
+      <h1>
+     
+        <Link className="linkcolor" to={ink}> {title ? title : null}</Link>
+      </h1>
     </div>
-  )
+  );
 }
 
 export default Nav
