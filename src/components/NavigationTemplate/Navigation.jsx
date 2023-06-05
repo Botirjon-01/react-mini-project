@@ -1,21 +1,19 @@
-import './navbar.css'
-import Nav from '../NavIconTemolate/Nav'
+import "./navbar.css";
+import Nav from "../NavIconTemolate/Nav";
 
-import {AiOutlineStock,AiOutlineUsergroupAdd} from "react-icons/ai"
-import {TbDashboard} from "react-icons/tb"
-import { CiChat2 } from "react-icons/ci";
-import {GoBook} from "react-icons/go"
-import {FiChevronLeft, FiMessageSquare} from "react-icons/fi"
-import {BsArrowLeftRight} from "react-icons/bs"
-import {BiCoinStack} from "react-icons/bi"
-import { useContext, useState } from 'react';
-import { ThemeContext } from '../../ThemeContext';
+import { AiOutlineStock, AiOutlineHdd, AiFillHome } from "react-icons/ai";
+import { TbDashboard } from "react-icons/tb";
+import { FiChevronLeft, FiMessageSquare } from "react-icons/fi";
+import { BsArrowLeftRight } from "react-icons/bs";
+import { BiSitemap } from "react-icons/bi";
+import { useContext, useState } from "react";
+import { ThemeContext } from "../../ThemeContext";
 
 function Navigation() {
-  const [nav, setnav] = useState(false)
-  const {Darktheme, setDarktheme} = useContext(ThemeContext)
-  function changetheme(){
-    setDarktheme(!Darktheme)
+  const [nav, setnav] = useState(false);
+  const { Darktheme, setDarktheme } = useContext(ThemeContext);
+  function changetheme() {
+    setDarktheme(!Darktheme);
   }
   return (
     <div className={`navigation ${nav && "active"} ${Darktheme && "dark"}`}>
@@ -40,16 +38,17 @@ function Navigation() {
         <span>Create ambition</span>
       </header>
 
-      <Nav ink={"/"} title="Dashboard" Icon={TbDashboard} />
+      <Nav ink={"/"} title="Bosh sahifa" Icon={AiFillHome} />
+      <Nav ink={"/cours"} title="kurslar" Icon={AiOutlineHdd} />
+
       <Nav ink={"/home"} title="Analyetica" Icon={AiOutlineStock} />
-      <Nav ink={"/contact"} title="Message" Icon={FiMessageSquare} />
-      <Nav ink={"/map"} title="Followers" Icon={AiOutlineUsergroupAdd} />
+      <Nav ink={"/contact"} title="kontakt" Icon={FiMessageSquare} />
+      <Nav ink={"/map"} title="kurs  Rejas" Icon={BiSitemap} />
       <div className="divider"></div>
-      <Nav ink={"/cours"} title="Comment" Icon={CiChat2} />
 
-      <Nav ink={"/coment"} title="Book" Icon={GoBook} />
+      {/* <Nav ink={"/coment"} title="Book" Icon={GoBook} /> */}
+      <Nav ink={"/coment"} title="Message" Icon={FiMessageSquare} />
 
-      <Nav title="Dashboard" Icon={TbDashboard} />
       <Nav
         title={`${
           Darktheme ? "Switch to Light Theme" : "Switch to Dark Theme"
@@ -80,4 +79,4 @@ function Navigation() {
   );
 }
 
-export default Navigation
+export default Navigation;

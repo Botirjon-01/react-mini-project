@@ -8,7 +8,7 @@
     color: white;
     background: linear-gradient(10deg,#810551,#05454d);
     padding: 5px 10px; 
-    /* overflow: hidden; */
+   
 
 }
 .navigation.active{
@@ -104,4 +104,20 @@ background-color: lightgray;
     right: 0;
     z-index: -1;
     opacity: 0.3;
+}
+
+
+.salom{
+    
+    width: 10px;
+    height: 30px;
+    border: 2px solid violet;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+   
+    
+
+
+
+
 }
