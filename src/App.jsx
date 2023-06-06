@@ -11,6 +11,13 @@ import Kontakt from './components/pages/Kontakt';
 import KursHaritasi from './components/pages/KursHaritasi';
 import Kurslar from './components/pages/Kurslar';
 import Takliflar from './components/pages/Takliflar';
+import LessonPage from './components/pages/kursPage/LessonPage';
+import LessonPagehtml from './components/pages/kursPage/LessonPagehtml';
+import LessonPagecss from './components/pages/kursPage/LessonPagecss';
+import LessonPagehjavascript from './components/pages/kursPage/LessonPagehjavascript';
+import LessonPagereact from './components/pages/kursPage/LessonPagereact';
+import LessonPageenglish from './components/pages/kursPage/LessonPageenglish';
+import LessonPagenode from './components/pages/kursPage/LessonPagenode';
 
 function App() {
   const [Darktheme, setDarktheme] = useState(false)
@@ -28,6 +35,13 @@ function App() {
                 <Route path="/map" Component={KursHaritasi} />
                 <Route path="/cours" Component={Kurslar} />
                 <Route path="/coment" Component={Takliflar} />
+                <Route path="/lesson" Component={LessonPage} />
+                <Route path="/lessonhtml" Component={LessonPagehtml} />
+                <Route path="/lessoncss" Component={LessonPagecss} />
+                <Route path="/lessonjs" Component={LessonPagehjavascript} />
+                <Route path="/lessonreact" Component={LessonPagereact} />
+                <Route path="/lessonenglish" Component={LessonPageenglish} />
+                <Route path="/lessonengnode" Component={LessonPagenode} />
               </Routes>
             </switch>
           </div>
