@@ -1,6 +1,50 @@
 .taklif{
     width: 100%;
     height: 100vh;
-    background-color: whitesmoke;
+    margin: 0px auto;
+    background-color: #ffffff5e;
+}
+.taklif-post{
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.taklif-post h1{
+    font-size: 30px;
+    /* color: #fff; */
+}
+.formsent{
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+}
+.formsent div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
 
+.formsent div input{
+    margin: 10px;
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+}
+.formsent .texar{
+    height: auto;
+    
+}
+.formsent  textarea{
+    width: 500px;
+    height: 200px;
+    display: flex;
+   justify-content: space-around;
+     font-size: 30px;
+}
+.formsent .submit{
+    background-color: orange;
+    font-size: 30px;
 }

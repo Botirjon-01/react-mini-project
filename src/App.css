@@ -10,7 +10,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     min-height: 100vh;
     justify-content: flex-start;
     align-items: flex-start;
-    /* background-color: #111; */
+   
 }
 
 .container{
