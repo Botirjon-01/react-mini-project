@@ -11,7 +11,12 @@ export const KursComponents = (props) => {
         <div className="kurs_img">
           <img src={props.link} alt="not fount img" />
         </div>
-        <div className="kurs_title"> {props.title}</div>
+        <div className="kurs_title">
+          <h1>{props.title}</h1>
+        </div>
+        <div className="btn">
+          <button>Batafsil</button> <span>Bepul</span>
+        </div>
       </Link>
     </div>
   );

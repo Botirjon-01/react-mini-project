@@ -10,12 +10,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     min-height: 100vh;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #111;
+    /* background-color: #111; */
 }
-.navbar{
-    border: 2px solid red  ;
-}
+
 .container{
     width: 100%;
     border: 2px solid royalblue;
+  
 }

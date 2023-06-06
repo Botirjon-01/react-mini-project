@@ -26,25 +26,26 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Navigation />
-          <div className="container">
-            <switch>
-              <Routes>
-                <Route exact path="/" Component={Main} />
-                <Route path="/home" Component={Boshsahifa} />
-                <Route path="/contact" Component={Kontakt} />
-                <Route path="/map" Component={KursHaritasi} />
-                <Route path="/cours" Component={Kurslar} />
-                <Route path="/coment" Component={Takliflar} />
-                <Route path="/lesson" Component={LessonPage} />
-                <Route path="/lessonhtml" Component={LessonPagehtml} />
-                <Route path="/lessoncss" Component={LessonPagecss} />
-                <Route path="/lessonjs" Component={LessonPagehjavascript} />
-                <Route path="/lessonreact" Component={LessonPagereact} />
-                <Route path="/lessonenglish" Component={LessonPageenglish} />
-                <Route path="/lessonengnode" Component={LessonPagenode} />
-              </Routes>
-            </switch>
-          </div>
+            <div className="container">
+              <switch>
+                <Routes>
+                  <Route exact path="/" Component={Main} />
+                  <Route path="/home" Component={Boshsahifa} />
+                  <Route path="/contact" Component={Kontakt} />
+                  <Route path="/map" Component={KursHaritasi} />
+                  <Route path="/cours" Component={Kurslar} />
+                  <Route path="/coment" Component={Takliflar} />
+                  <Route path="/lesson" Component={LessonPage} />
+                  <Route path="/lessonhtml" Component={LessonPagehtml} />
+                  <Route path="/lessoncss" Component={LessonPagecss} />
+                  <Route path="/lessonjs" Component={LessonPagehjavascript} />
+                  <Route path="/lessonreact" Component={LessonPagereact} />
+                  <Route path="/lessonenglish" Component={LessonPageenglish} />
+                  <Route path="/lessonengnode" Component={LessonPagenode} />
+                </Routes>
+              </switch>
+            </div>
+       
         </div>
       </BrowserRouter>
     </ThemeContext.Provider>

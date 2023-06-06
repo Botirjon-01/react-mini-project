@@ -35,7 +35,7 @@ function Navigation() {
             width={100}
           />
         </div>
-        <span>Create ambition</span>
+        <span>User</span>
       </header>
 
       <Nav ink={"/"} title="Bosh sahifa" Icon={AiFillHome} />
