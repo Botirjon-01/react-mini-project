@@ -1,14 +1,59 @@
+
 const VideoDBjs = [
-    {
-        id: 1,
-        kName: "1 Javascript Darslar",
-        post: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
-          ullam vero placeat doloremque accusantium repellat error earum ipsam
-          explicabo autem.`,
-        img: "Rasim yo'q",
-        linkvideo: "https://www.youtube.com/embed/YhAryN3RRfE",
-        pagelink: "",
-    }
+  {
+    id: 1,
+    kName: "1. Kursga kirish | JavaScript O'zbekcha",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=zJuDsji3IbE&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u",
+
+  },
+  {
+    id: 2,
+    kName: "Bizga nima kerak bo'ladi ? | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=1Jy8UWjQ4JE&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=2",
+
+  }, {
+    id: 3,
+    kName: "Web sahifamizga JavaScriptni qo'shish | | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=E7_qUYYXazU&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=3",
+
+  }, {
+    id: 4,
+    kName: " Kurs fayllar | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=bPzy0_156Ws&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=4",
+
+  }, {
+    id: 5,
+    kName: "Brauserda Console | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=Z4E2xjTCyjM&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=5",
+
+  },
+  {
+    id: 6,
+    kName: "JavaScriptda Variables o'zgaruvchilar va Commentlar | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=-Z1kqQp85n0&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=6",
+
+  },
+  {
+    id: 7,
+    kName: "'zgaruvchilarni nomlash qoidalari | JavaScript darslari | O'zbek tilida",
+    post: "",
+    img: "",
+    linkvideo: "https://www.youtube.com/watch?v=iEZM8mNtDvs&list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u&index=7",
+
+  },
+
 ]
 
 export default VideoDBjs

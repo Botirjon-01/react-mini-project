@@ -1,5 +1,6 @@
 import HomeCom from "../components/homeComponents/HomeCom";
 import Kurslar from "../components/pages/Kurslar";
+import VideoComponent from "../components/video/VideoComponent";
 import "./Main.css"
 
 const Main = () => {
@@ -8,7 +9,7 @@ const Main = () => {
       <div className="asosiy">
     <HomeCom/>
       </div>
-     
+     <VideoComponent/>
       <Kurslar/>
 
 

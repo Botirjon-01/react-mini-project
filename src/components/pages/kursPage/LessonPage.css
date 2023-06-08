@@ -26,3 +26,29 @@
     text-indent: 30;
     margin-left: 50px;
 }
+.commentcss{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid chartreuse;
+    line-height: 1.9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.commentcss ul{
+    margin-left: 50px;
+}
+.commentcss p{
+    padding: 10px;
+}
+.commentcss span{
+    display: inline-block;
+    width: 80%;
+    height: 80px;
+    color: azure;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+}

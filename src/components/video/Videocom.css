@@ -1,0 +1,12 @@
+.wrapper{
+    width: 80%;
+    height: 80vh;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.youtube-box{
+    width: 50%;
+    height: 400px;
+    background-color: blanchedalmond;
+}
