@@ -1,0 +1,18 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #257a9f;
+    color: white;
+}
+.blogIcon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.blogIcon a{
+    color: white;
+}

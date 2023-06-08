@@ -7,7 +7,6 @@ const Takliflar = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_jvj37n3",
@@ -30,7 +29,7 @@ const Takliflar = () => {
     <div className="taklif">
       <div className="taklif-post">
         <h1>
-          Bizga qandaydur savollaringiz bo'lsa bizga murojat qling biz alba
+          Bizga qandaydur savollaringiz bo'lsa bizga murojat qling biz albatta
           ko'rib chiqamiz va biz sizning savol va takliflaringizga javob
           qaytaramiz
         </h1>
@@ -40,7 +39,7 @@ const Takliflar = () => {
         <div>
           {" "}
           {/* <label>Name</label> */}
-          <input type="text" name="to_name" placeholder="foydalanuvchi ism" />
+          <input type="text" name="to_name" placeholder="foydalanuvchi ismi" />
         </div>
         <div>
           {/* <label>Email</label> */}

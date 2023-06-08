@@ -1,47 +1,41 @@
-.kurs{
-    width: 35%;
-    height: 500px;
-    /* border: 2px solid black; */
-    margin: 20px;
-   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+.kurs {
+  width: 35%;
+  height: 500px;
+  margin: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.kurs h1{
-    font-size: 30px;
+.kurs h1 {
+  font-size: 30px;
 }
-.kurs a{
-    text-decoration: none;
-    color: black;
-    
+.kurs a {
+  text-decoration: none;
+  color: black;
 }
-.kurs_img{
-    width: 100%;
-    /* height: 310px; */
-   
-
+.kurs_img {
+  width: 100%;
 }
-.kurs_title{
-    width: 90%;
-    height: 50px;
-    border-bottom: 2px solid blue;
-    margin: 0 auto;
+.kurs_title {
+  width: 90%;
+  height: 50px;
+  border-bottom: 2px solid blue;
+  margin: 0 auto;
 }
-.kurs_img img{
-   
-    width: 99%;
-
-    margin: 3px;
-   
+.kurs_img img {
+  width: 99%;
+  margin: 3px;
 }
-.btn{
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid beige;
-    font-size: 30px;
+.btn {
+  width: 95%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid beige;
+  font-size: 30px;
 }
-button{
-    font-size: 25px;
-    color: blue;
-    border: none;
+button {
+  font-size: 25px;
+  color: blue;
+  border: none;
 }

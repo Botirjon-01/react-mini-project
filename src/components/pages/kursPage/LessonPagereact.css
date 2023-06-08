@@ -1,0 +1,11 @@
+.comments{
+    width: 80%;
+    height: 300px;
+    border: 2px solid orange;
+    margin: 0 auto;
+}
+.comments {
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+}

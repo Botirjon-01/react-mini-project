@@ -1,25 +1,24 @@
-.articl{
-    width: 70%;
-    height: 150vh;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
+.articl {
+  width: 70%;
+  height: 150vh;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.textArticle{
-width: 60%;
-height: 50vh;
-border: 2px solid blue;
+.textArticle {
+  width: 60%;
+  height: 50vh;
+  border: 2px solid blue;
 }
-.imgArticle{
-
-    width: 35%;
-    height: 50vh;
-    border: 2px solid black;
-    color: grey;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+.imgArticle {
+  width: 35%;
+  height: 50vh;
+  border: 2px solid black;
+  color: grey;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
