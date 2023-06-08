@@ -7,10 +7,6 @@ import "./Videocom.css"
 const VideoComponent = () => {
   
   const [yotubevideo, setyotubevideo] = useState("")
-
-
-
-
   return (
     <div className='wrapper'>VideoComponent
     <form action="">
