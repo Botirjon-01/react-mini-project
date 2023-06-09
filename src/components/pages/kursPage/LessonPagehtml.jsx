@@ -2,11 +2,18 @@ import React from 'react'
 import "./LessonPage.css";
 import VideoDB from "../../DB/VideoDBhtml"
 import Kurscom from './kurscomponent/Kurscom';
-
+import BasicTabs from '../../tabcomponent/BasicTabs';
 
 
 const LessonPagehtml = () => {
 
+  let Nodee = {
+    nom: "Foundation ",
+    img: "https://sammi.ac/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2F36T4JDuzTpeUtdsuh8cC&w=1920&q=75",
+    post: ` 
+    Foundation to'liq kurs o'zbek tilida. HTML, CSS, JavaScript (BEM), Bootstrap, SASS (SCSS) va amaliy loyihlar barchasi bitta kurs va asosiysi mutloqo bepul. O'zingizni birinchi web saytingizni yashashingiz mumkin va uni hosting joylashni ham sizga batafsil ma'lumot beramiz.   
+    `
+  }
   const video = VideoDB.map((data) => {
     return (
       <>
@@ -25,6 +32,11 @@ const LessonPagehtml = () => {
    <div className=''>
       <div className='lessonkurs'>
         <div >
+
+          <BasicTabs til={Nodee.nom}
+            post={Nodee.post}
+            img={Nodee.img}
+          />
           <h1>HTML: Kirish</h1>
           <p>HTML   bu  ​veb sahifalarni yaratish uchun ishlatiladigan ​standart gipermatnli belgilash tili.</p>
           <p>Html ni dasturlash tili deb tan olishmaydi. Bizga farqi yo'q bu dasturlash tilimi yo'qmi. Eng asosiysi uni o'rganishimiz kerak.

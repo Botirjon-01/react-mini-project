@@ -10,7 +10,7 @@ const FooterCom = () => {
     <div className="footer">
       <div className="brend"></div>
       <div className="create">
-        Botirjon Tursunaliyev 06:06:2023 yil o'z faoliyatin boshladi
+         06-06-2023 yil dan sinov tariqasida o'z  faoliyatin boshladi 
       </div>
       <div className="blogIcon">
         <a

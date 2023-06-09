@@ -9,7 +9,7 @@ const Main = () => {
       <div className="asosiy">
     <HomeCom/>
       </div>
-     <VideoComponent/>
+    
       <Kurslar/>
 
 

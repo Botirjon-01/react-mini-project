@@ -1,0 +1,51 @@
+.tablist{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+     line-height: 1.9;
+
+}
+.tabmodel{
+    width: 95%;
+    height: 30vh;
+    /* border: 2px solid slateblue; */
+    margin: 10px;
+  
+   
+   
+}
+TabPanel{
+    line-height: 1.8;
+}
+.boxmessage{
+     width: 70%;
+    height: auto;
+    /* border: 2px solid slateblue; */
+
+}
+.tabscontent{
+    width: 70%;
+    height: 70vh;
+    /* border: 2px solid slateblue; */
+    display: flex;
+}
+.boximg{
+    width: 30%;
+    height: 50vh;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.boximg img {
+    width: 100%;
+}
+.boximg h2{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boximg button{
+    width: 100%;
+}

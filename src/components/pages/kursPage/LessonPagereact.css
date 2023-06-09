@@ -1,11 +1,12 @@
-.comments{
-    width: 80%;
-    height: 300px;
-    border: 2px solid orange;
+.bloglog{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid orange; */
     margin: 0 auto;
 }
-.comments {
-   display: flex;
-   justify-content: center;
-   flex-direction: row-reverse;
+.videomaps{
+    width: 80%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 0 auto;
 }

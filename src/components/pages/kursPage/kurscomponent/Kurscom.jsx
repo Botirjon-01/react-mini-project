@@ -3,14 +3,14 @@ import ReactPlayer from 'react-player'
 import "./Kurscom.css";
 const Kurscom = (props) => {
 
-  const [yotubeUrl, setyotubeUrl] = useState("")
+  // const [yotubeUrl, setyotubeUrl] = useState("")
 
-  useEffect(() => {
+  // useEffect(() => {
     
-      setyotubeUrl(props.linkvideo)
-      console.log(" video url ", yotubeUrl);
+  //     setyotubeUrl(props.linkvideo)
+  //     console.log(" video url ", yotubeUrl);
   
-  });
+  // });
 
   // function whatchvideo() {
   //   setyotubeUrl(props.linkvideo)
@@ -29,9 +29,9 @@ const Kurscom = (props) => {
           <source src="movie.ogg" type="video/ogg"/>
         </video> */}
         
-         <ReactPlayer url={yotubeUrl} controls /> 
+        <ReactPlayer url={props.linkvideo} controls /> 
 
-        <a href={yotubeUrl} target="_blank">open  </a>
+        <a href={props.linkvideo} target="_blank">open  </a>
         
       </details>
     </div>
