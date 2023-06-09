@@ -6,7 +6,7 @@
 .lessonkurs{
     width: 90%;
     /* height: 90vh; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
     margin: 10px auto;
 }
@@ -31,7 +31,7 @@
     height: auto;
     margin: 10px auto;
     padding: 10px;
-    border: 2px solid chartreuse;
+    /* border: 2px solid chartreuse; */
     line-height: 1.9;
     font-family: 'Times New Roman', Times, serif;
 }

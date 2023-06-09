@@ -30,13 +30,14 @@ const LessonPagehtml = () => {
   let doc = "<!DOCTYPE html>", html = "<html> ", head = "<head>", title = "<title>", body = "<body>", h = "<h1>", p = "<p>"
   return (
    <div className=''>
+      <BasicTabs til={Nodee.nom}
+        post={Nodee.post}
+        img={Nodee.img}
+      />
       <div className='lessonkurs'>
         <div >
 
-          <BasicTabs til={Nodee.nom}
-            post={Nodee.post}
-            img={Nodee.img}
-          />
+        
           <h1>HTML: Kirish</h1>
           <p>HTML   bu  ​veb sahifalarni yaratish uchun ishlatiladigan ​standart gipermatnli belgilash tili.</p>
           <p>Html ni dasturlash tili deb tan olishmaydi. Bizga farqi yo'q bu dasturlash tilimi yo'qmi. Eng asosiysi uni o'rganishimiz kerak.
