@@ -1,34 +1,21 @@
 import React from 'react'
 import "./LessonPage.css";
-import Kurscom from './kurscomponent/Kurscom';
-import VideoDBcss from '../../DB/VideoDBcss';
 import BasicTabs from '../../tabcomponent/BasicTabs';
-
+import StremYotobe from '../kursVideoComponent/StremYoutube';
 
 const LessonPagecss = () => {
   let css = {
     nom: "Css ",
     img: "https://sammi.ac/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2F36T4JDuzTpeUtdsuh8cC&w=1920&q=75",
     post: ` 
-   Javascript toʻliq oʻzbek tilida. JavaScript  Eng mashhur dasturlash tilini o'zlashtirib oling va uni amalda qo'llashni o'rganing. Ushbu kurs JavaScript-ni chuqur o'rganishga qaratilgan, ammo asosiy maqsad uni darhol amalda qo'llashdir. Bu shuni anglatadiki, siz ishlash uchun material olasiz va birgalikda biz bosqichma-bosqich haqiqiy loyihalarni yaratamiz.
-    `
+  CSS alohida tashqi faylga yozilgani bois HTML kodlar qisqaradi bu esa browser bizning sahifamizni o'qishini tezlashtiradi.
+CSS da bir qancha dizayn imkoniyatlar mavjud. Masalan animatsiya, gradientlar va hokazo.
+Bitta veb saxifani bir qancha katta, kichik uskunalar uchun moslashtish mumkin. Masalan mobil telefonlar, komputer ekranlari, planshet va h.k.
+Css  yana juda ko'p muommolarni yechadi va dasturchilarga ancha qulayliklar yaratib beradi. Qisqasi hayotni yengillashtiradi.😎
+Css veb saxifa uchun  bamisoli qizlarning  pardoz andozi dir. pardoz andozni ham meyyori bo'lgani yaxshi. 😁
+CSS ni ishlatish va o'rganish juda oson. Ingliz tilini kamida o'rtacha boshqichda bilsangiz nur ustiga ola nur  `
   }
 
-const video = VideoDBcss.map((data) => {
-
- 
-  return (
-    <>
-      <Kurscom
-        key={data.id}
-        kName={data.kName}
-        img={data.img}
-        linkvideo={data.linkvideo}
-        post={data.post}
-      />
-    </>
-  )
-})
   return <div className="LessonPage">
 
     <BasicTabs 
@@ -74,7 +61,7 @@ const video = VideoDBcss.map((data) => {
 </p>
       </div>
 
-    <p>{video}</p>
+    <StremYotobe />
   </div>;
 }
 

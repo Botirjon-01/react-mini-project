@@ -1,9 +1,7 @@
 import React from 'react'
 import "./LessonPage.css";
-import Kurscom from './kurscomponent/Kurscom';
 import BasicTabs from '../../tabcomponent/BasicTabs';
-
-import VideoDBnode from '../../DB/VideoDBnode';
+import StremYoutubeNode from '../kursVideoComponent/StremYoutubeNode';
 
 
 const LessonPagenode = () => {
@@ -16,28 +14,16 @@ const LessonPagenode = () => {
            `
   }
 
-  const videonode = VideoDBnode.map((data) => {
-    return (
-      <>
-        <Kurscom
-          key={data.id}
-          kName={data.kName}
-          img={data.img}
-          linkvideo={data.linkvideo}
-          post={data.post}
-        />
-      </>
-    )
-  })
+  
   return (
-    <div className = "LessonPage">LessonPagenode
+    <div className = "LessonPage">
     
       <BasicTabs til={Nodee.nom}
         post={Nodee.post} 
         img = {Nodee.img}
         />
+      <StremYoutubeNode/>
     
-      <p>{videonode}</p>
     </div>
   )
 }

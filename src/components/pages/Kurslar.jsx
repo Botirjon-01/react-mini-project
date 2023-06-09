@@ -3,7 +3,7 @@ import "./Kurslar.css";
 import { KursComponents } from '../kurs/KursComponents';
 import DBData from '../DB/DBData';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import LessonPage from './kursPage/LessonPage';
+import LessonPage from './kursPage/LessonPageExpress';
 
 const Kurslar = () => {
   

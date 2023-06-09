@@ -11,13 +11,14 @@ import Kontakt from './components/pages/Kontakt';
 import KursHaritasi from './components/pages/KursHaritasi';
 import Kurslar from './components/pages/Kurslar';
 import Takliflar from './components/pages/Takliflar';
-import LessonPage from './components/pages/kursPage/LessonPage';
+import LessonPage from './components/pages/kursPage/LessonPageExpress';
 import LessonPagehtml from './components/pages/kursPage/LessonPagehtml';
 import LessonPagecss from './components/pages/kursPage/LessonPagecss';
 import LessonPagehjavascript from './components/pages/kursPage/LessonPagehjavascript';
 import LessonPagereact from './components/pages/kursPage/LessonPagereact';
 import LessonPageenglish from './components/pages/kursPage/LessonPageenglish';
 import LessonPagenode from './components/pages/kursPage/LessonPagenode';
+import LessonPageExpress from './components/pages/kursPage/LessonPageExpress'
 import FooterCom from './components/footerCom/FooterCom';
 
 function App() {
@@ -43,6 +44,8 @@ function App() {
                 <Route path="/lessonreact" Component={LessonPagereact} />
                 <Route path="/lessonenglish" Component={LessonPageenglish} />
                 <Route path="/lessonengnode" Component={LessonPagenode} />
+                <Route path="/lessonengexpress" Component={LessonPageExpress} />
+
               </Routes>
             </switch>
             <FooterCom />

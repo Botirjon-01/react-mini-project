@@ -1,9 +1,7 @@
 import React from 'react'
 import "./LessonPage.css";
-import VideoDB from "../../DB/VideoDBhtml"
-import Kurscom from './kurscomponent/Kurscom';
 import BasicTabs from '../../tabcomponent/BasicTabs';
-
+import StremYoutubeHtml from '../kursVideoComponent/StremYoutubeHtml';
 
 const LessonPagehtml = () => {
 
@@ -14,19 +12,7 @@ const LessonPagehtml = () => {
     Foundation to'liq kurs o'zbek tilida. HTML, CSS, JavaScript (BEM), Bootstrap, SASS (SCSS) va amaliy loyihlar barchasi bitta kurs va asosiysi mutloqo bepul. O'zingizni birinchi web saytingizni yashashingiz mumkin va uni hosting joylashni ham sizga batafsil ma'lumot beramiz.   
     `
   }
-  const video = VideoDB.map((data) => {
-    return (
-      <>
-        <Kurscom
-          key={data.id}
-          kName={data.kName}
-          img={data.img}
-          linkvideo={data.linkvideo}
-          post={data.post}
-        />
-      </>
-    )
-  })
+  
   let doc = "<!DOCTYPE html>", html = "<html> ", head = "<head>", title = "<title>", body = "<body>", h = "<h1>", p = "<p>"
   return (
    <div className=''>
@@ -74,12 +60,7 @@ const LessonPagehtml = () => {
           <img width={1000} src="https://api.dasturjon.uz/api/v1/attach/image/2020-07-01-18-18-25.png" alt="" />
 
         </div>
-        <div>
-        <p>
-            {video}
-        </p>
-
-        </div>
+        <StremYoutubeHtml/>
      </div>
    
    </div>

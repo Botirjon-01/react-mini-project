@@ -5,9 +5,13 @@ import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import data from "./DB/VideoDBcss";
+
+import data from "../../DB/VideoDBcss";
+
 import { Box, Grid, Link } from "@mui/material";
 import ReactPlayer from "react-player";
+
+
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
@@ -44,8 +48,10 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function StremYotobe() {
+export default function StremYoutube() {
+
   const [expanded, setExpanded] = React.useState("");
+  
   const [Url, setUrl] = React.useState();
   const handleChange = (panel, link) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
